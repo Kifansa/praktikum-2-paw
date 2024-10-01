@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .justify {
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+        }
+
+        .textarea {
+            flex-wrap: wrap;
+            display: flex;
+
+        }
+
+        #konfirmasipassword {
+            margin-top: -15px;
+        }
+
+        input {
+            margin-left: 5px;
+        }
+
+        textarea {
+            margin-left: 5px;
+        }
+
+        select {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Form Registrasi</h1>
+    <form action="">
+        <fieldset style="width: 50%; margin-top: -20px;">
+            <legend>
+                <p>Biodata</p>
+            </legend>
+            <div class="justify">
+                <p>Nama Mahasiswa</p>
+                <p style="padding-left: 80px;">: </p>
+                <p><input type="text" name="required_form" size="20" required placeholder="Nama Anda"></p>
+            </div>
+            <div class="justify" style="margin-top: -20px;">
+                <p>No Induk Mahasiswa (NIM) </p>
+                <p style="padding-left: 10px;">: </p>
+                <p><input type="number" name="required_form" size="20" required placeholder="123456789"></p>
+            </div>
+            <div class="textarea" style="margin-top: -20px;">
+                <p>Alamat Mahasiswa </p>
+                <p style="padding-left: 70px;">: </p>
+                <p><textarea name="textarea_form" cols="30" rows="5" placeholder="Alamat Anda"></textarea></p>
+            </div>
+            <div class="justify" style="margin-top: -20px;">
+                <p>Tanggal Lahir </p>
+                <p style="padding-left: 100px;">: </p>
+                <p>
+                    <select name="pilihan">
+                        <option value=1 selected>01</option>
+                        <option value=2>02</option>
+                        <option value=3>03</option>
+                        <option value=4>04</option>
+                        <option value=5>05</option>
+                        <option value=6>06</option>
+                        <option value=7>07</option>
+                        <option value=8>08</option>
+                        <option value=9>09</option>
+                        <option value=10>10</option>
+                        <option value=11>11</option>
+                        <option value=12>12</option>
+                        <option value=13>13</option>
+                        <option value=14>14</option>
+                        <option value=15>15</option>
+                        <option value=16>16</option>
+                        <option value=17>17</option>
+                        <option value=18>18</option>
+                        <option value=19>19</option>
+                        <option value=20>20</option>
+                        <option value=21>21</option>
+                        <option value=22>22</option>
+                        <option value=23>23</option>
+                        <option value=24>24</option>
+                        <option value=25>25</option>
+                        <option value=26>26</option>
+                        <option value=27>27</option>
+                        <option value=28>28</option>
+                        <option value=29>29</option>
+                        <option value=30>30</option>
+                    </select>
+                    <select name="pilihan">
+                        <option value=1 selected>Januari</option>
+                        <option value=2>Februari</option>
+                        <option value=3>Maret</option>
+                        <option value=4>April</option>
+                        <option value=5>Mei</option>
+                        <option value=6>Juni</option>
+                        <option value=7>Juli</option>
+                        <option value=8>Agustus</option>
+                        <option value=9>September</option>
+                        <option value=10>Oktober</option>
+                        <option value=11>November</option>
+                        <option value=12>Desember</option>
+                    </select>
+                    <select name="pilihan">
+                        <option value=1 selected>Januari</option>
+                        <option value=2>Februari</option>
+                        <option value=3>Maret</option>
+                        <option value=4>April</option>
+                        <option value=5>Mei</option>
+                        <option value=6>Juni</option>
+                        <option value=7>Juli</option>
+                        <option value=8>Agustus</option>
+                        <option value=9>September</option>
+                        <option value=10>Oktober</option>
+                        <option value=11>November</option>
+                        <option value=12>Desember</option>
+                    </select>
+                </p>
+            </div>
+
+            <div class="justify" style="margin-top: -20px;">
+                <p>Jenis Kelamin </p>
+                <p style="padding-left: 100px;">: </p>
+                <p><input type="radio" name="radio" value="radio1" id="radio1" checked><label for="radio1">Pria</label>
+                    <input type="radio" name="radio" value="radio2" id="radio2"><label for="radio2">Wanita</label>
+                </p>
+            </div>
+            <div class="justify" style="margin-top: -20px;">
+                <p>Upload Foto</p>
+                <p style="padding-left: 110px;">: </p>
+                <p><input type="file" name="required_form" size="20" required placeholder="URL Website Anda"></p>
+            </div>
+            <div class="justify" style="margin-top: -20px;">
+                <p>URL Website</p>
+                <p style="padding-left: 105px;">: </p>
+                <p><input type="text" name="required_form" size="20" required placeholder="URL Website Anda"></p>
+            </div>
+            <div class="justify" style="margin-top: -20px;">
+                <p>Perguruan Tinggi</p>
+                <p style="padding-left: 80px;">: </p>
+                <p><input type="text" name="text_form" size="20"></p>
+
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset style="width: 50%;">
+            <legend>
+                <p>Info Akun</p>
+            </legend>
+            <div class="justify">
+                <p>Email</p>
+                <p style="padding-left: 75px;">:</p>
+                <input type="text" style="height: 20px;" placeholder="Email Anda">
+            </div>
+            <div class="justify" style="margin-top: -20px;">
+                <p>Username</p>
+                <p style="padding-left: 49px;">:</p>
+                <input type="text" style="height: 20px;" placeholder="Username Anda">
+            </div>
+            <div class="justify" style="margin-top: -20px;">
+                <p>Password</p>
+                <p style="padding-left: 53px;">:</p>
+                <input type="password" style="height: 20px;" placeholder="Password Anda">
+            </div>
+
+            <div class="justify" style="margin-top: -20px;">
+                <p>Ulangi Password</p>
+                <p style="padding-left: 5px;">:</p>
+                <input type="password" style="height: 20px;" placeholder="Password Anda">
+            </div>
+
+
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset style="width: 50%;">
+            <legend>
+                <p>Kemampuan Dasar</p>
+            </legend>
+            <div class="justify" style="margin-top: -10px;">
+                <input type="checkbox" name="checkbox1" value="checkbox1" id="checkbox1">
+                <label for="checkbox1">HTML</label>
+                <input type="checkbox" name="checkbox2" value="checkbox2" id="checkbox2">
+                <label for="checkbox2">CSS</label>
+                <input type="checkbox" name="checkbox3" value="checkbox3" id="checkbox3">
+                <label for="checkbox3">JavaScript</label>
+                <input type="checkbox" name="checkbox4" value="checkbox4" id="checkbox4">
+                <label for="checkbox4">PHP</label>
+                <input type="checkbox" name="checkbox5" value="checkbox5" id="checkbox5">
+                <label for="checkbox5">MySQL</label>
+                <input type="checkbox" name="checkbox6" value="checkbox6" id="checkbox6">
+                <label for="checkbox6">Laravel</label>
+                <input type="checkbox" name="checkbox7" value="checkbox7" id="checkbox7">
+                <label for="checkbox7">React
+                    Native</label>
+            </div>
+        </fieldset>
+    </form>
+
+    <p>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Simpan">
+        <input type="button" value="Button" onclick="">
+    </p>
+</body>
+
+</html>
